@@ -1,3 +1,4 @@
+import { ShowMore } from "@/components";
 import { MouseEventHandler } from "react";
 
 export interface CustomButtonProps {
@@ -47,3 +48,9 @@ export interface CustomFilterProps {
   title: string;
   options: OptionProps[];
 }
+
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+}
+
